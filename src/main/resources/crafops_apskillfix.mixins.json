@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ppekkungz.crafops_apskillfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["LatentRetributionSkillMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
