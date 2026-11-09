@@ -1,4 +1,4 @@
-package net.ppekkungz.crafops_apskillfix.mixin;
+package net.ppekkungz.crafops_apskillfix.mixin.wom.skill_client;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

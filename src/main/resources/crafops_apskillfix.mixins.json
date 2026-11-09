@@ -4,11 +4,16 @@
   "package": "net.ppekkungz.crafops_apskillfix.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "LatentRetributionSkillMixin",
-    "PainAnticipationSkillMixin"
+    "wom.skill_client.LatentRetributionSkillMixin",
+    "wom.skill_client.PainAnticipationSkillMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
-  "mixins": []
+  "mixins": [
+    "wom.skill_server.DancingBladeSkillMixin",
+    "wom.skill_server.HeartShieldSkillMixin",
+    "wom.skill_server.LatentRetributionParticleMixin",
+    "wom.skill_server.PainAnticipationParticleMixin"
+  ]
 }
