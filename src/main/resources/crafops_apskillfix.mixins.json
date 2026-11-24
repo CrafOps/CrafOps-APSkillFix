@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "wom.skill_client.LatentRetributionSkillMixin",
-    "wom.skill_client.PainAnticipationSkillMixin"
+    "wom.skill_client.PainAnticipationSkillMixin",
+    "wom.skill_server.WanweraSkillDataGuardMixin"
   ],
   "injectors": {
     "defaultRequire": 1
